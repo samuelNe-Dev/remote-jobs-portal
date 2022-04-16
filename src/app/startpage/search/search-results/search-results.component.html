@@ -1,0 +1,10 @@
+<button (click)="showJobs()">Search</button>
+
+<div class="job-cards">
+    <div *ngFor="let job of jobs" class="job-card">
+        <h2>{{job["title"]}}</h2>
+        <h5>{{job["company_name"]}}</h5>   
+        <p>{{job["category"]}}</p> 
+        <br>
+    </div>
+</div>
