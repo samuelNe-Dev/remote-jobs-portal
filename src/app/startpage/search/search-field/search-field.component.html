@@ -1,3 +1,4 @@
-<div class="search-field">
-    <input type="text" [(ngModel)] = "keyword">
+<div class="search-field d-flex flex-column align-items-center">
+    <input class="form-control" type="text" [(ngModel)]="keyword" placeholder="Search for job ..."/>
+    <button class="btn btn-primary" (click)="searchJobs()">Search</button>
 </div>
