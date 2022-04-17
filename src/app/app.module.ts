@@ -11,6 +11,8 @@ import { FormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 import { HttpClientModule } from '@angular/common/http';
 
+import { ClipboardModule } from 'ngx-clipboard';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,6 +27,7 @@ import { HttpClientModule } from '@angular/common/http';
     CommonModule,
     HttpClientModule,
     NgbModule,
+    ClipboardModule
   ],
   providers: [],
   bootstrap: [AppComponent],
